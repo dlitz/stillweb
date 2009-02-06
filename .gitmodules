@@ -1,0 +1,3 @@
+[submodule "utils/texvc"]
+	path = utils/texvc
+	url = git://git.dlitz.net/svn/texvc.git
