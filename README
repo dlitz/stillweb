@@ -1,0 +1,5 @@
+StillWeb is a static HTML website generator.
+
+It requires Python 3.0.
+
+It uses "texvc" and "texvc_tex" from MediaWiki.
