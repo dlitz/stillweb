@@ -219,8 +219,8 @@ class FeedGeneratorPlugin:
             print("%s: skipping %s ('published' in the future)" % (tp.output_filename, entry['path_info'].output_filename,))
             del entries[i]
 
-        # Sort the entries by their last-updated time, newest first.
-        entries.sort(key=lambda entry: atom_datetime_to_sort_key(entry['updated']), reverse=True)
+        # Sort the entries by their publication date, newest first.
+        entries.sort(key=lambda entry: atom_datetime_to_sort_key(entry['published']), reverse=True)
 
         # Find the most recent update
         if not entries:
