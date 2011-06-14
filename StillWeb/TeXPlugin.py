@@ -192,8 +192,8 @@ class TeXPlugin:
 
         # Try to read the canonical MD5 sum from the cache file.  Generate it if it's not cached.
         try:
-            f = open(orig_md5_filename, "rt", encoding="UTF-8")
-            canonical_md5 = binascii.b2a_hex(binascii.a2b_hex(f.read().strip())).decode('ascii')    # make sure it's hexadecimal
+            f = open(orig_md5_filename, "rt")
+            canonical_md5 = binascii.b2a_hex(binascii.a2b_hex(f.read().strip().encode('ascii'))).decode('ascii')    # make sure it's hexadecimal
             assert len(canonical_md5) == 32     # 32 hexadecimal digits
             f.close()
         except EnvironmentError as exc:
