@@ -4,7 +4,6 @@
 
 import html.parser
 import html.entities
-import cgi
 import re
 from xml.dom import minidom
 
@@ -66,7 +65,7 @@ class TagSoupToXml(html.parser.HTMLParser):
             self.body_content.append(text)
 
     def handle_data(self, data):
-        self.add_output(cgi.escape(data))
+        self.add_output(html.escape(data))
 
     def handle_charref(self, name):
         if name.lower().startswith("x"):
@@ -122,7 +121,7 @@ class TagSoupToXml(html.parser.HTMLParser):
 
         self.add_output("<%s" % (tagname,))
         for (k, v) in attr_list:
-            self.add_output(' %s="%s"' % (k, cgi.escape(v, quote=True)))
+            self.add_output(' %s="%s"' % (k, html.escape(v, quote=True)))
         if tagname in self.forbidden_endtags:
             self.add_output(" />")  # self-closing tag
         else:
