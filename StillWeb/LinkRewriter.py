@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # LinkRewriter.py - Link (URL) rewriting
-# Copyright (C) 2008  Dwayne C. Litzenberger <dlitz@dlitz.net>
+# Copyright (C) 2008  Darsey Litzenberger <dlitz@dlitz.net>
 
 from StillWeb.sw_urllib import rebase_url, rfc3986_urljoin, relative_url
 from StillWeb.sw_util import generate_fake_url, getChildText, replaceChildText

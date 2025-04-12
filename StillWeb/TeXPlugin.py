@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # TeXPlugin.py - TeX (texvc) plugin for StillWeb
-# Copyright (C) 2008  Dwayne C. Litzenberger <dlitz@dlitz.net>
+# Copyright (C) 2008  Darsey Litzenberger <dlitz@dlitz.net>
 
 from StillWeb.Placeholders import ReplaceWithHTML, ReplaceWithNode, ReplaceWithNothing, PLACEHOLDERS_NAMESPACE
 from StillWeb.sw_util import getChildText, TypicalPaths, ensure_path

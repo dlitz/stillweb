@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # BasicCommands.py - Basic script commands for StillWeb
-# Copyright (C) 2008  Dwayne C. Litzenberger <dlitz@dlitz.net>
+# Copyright (C) 2008  Darsey Litzenberger <dlitz@dlitz.net>
 
 import os
 

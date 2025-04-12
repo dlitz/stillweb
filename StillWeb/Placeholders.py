@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Placeholders.py - Placeholder-plugin support
-# Copyright (C) 2008  Dwayne C. Litzenberger <dlitz@dlitz.net>
+# Copyright (C) 2008  Darsey Litzenberger <dlitz@dlitz.net>
 
 from xml.dom import minidom, EMPTY_NAMESPACE, XHTML_NAMESPACE
 

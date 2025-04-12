@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # test_sw_urllib.py - test cases for sw_urllib.py
-# Copyright (C) 2008  Dwayne C. Litzenberger <dlitz@dlitz.net>
+# Copyright (C) 2008  Darsey Litzenberger <dlitz@dlitz.net>
 
 import unittest
 

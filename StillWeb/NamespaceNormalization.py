@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # NamespaceNormalization.py - DOM XML namespace normalization
-# Copyright (C) 2008  Dwayne C. Litzenberger <dlitz@dlitz.net>
+# Copyright (C) 2008  Darsey Litzenberger <dlitz@dlitz.net>
 
 from xml.dom import XMLNS_NAMESPACE, EMPTY_NAMESPACE
 
